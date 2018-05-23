@@ -8,8 +8,8 @@ body{
 .row{
     padding-top:10px;
     padding-bottom:10px;
-    display: flex;
-    justify-content: stretch;
+    /* display: flex; */
+    /* justify-content: stretch; */
 }
 .category__slider {
     /* max-height: 512px; */
