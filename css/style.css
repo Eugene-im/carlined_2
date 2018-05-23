@@ -102,3 +102,31 @@ body{
 .breadcrumb-block{
     margin-top: -50px;
 }
+.slider__item .breadcrumb-block{
+    margin-top: 50px;
+}
+.slider__item .breadcrumb-block i,
+.slider__item .breadcrumb-block div,
+.slider__item .breadcrumb-block a{
+    color:#fff;
+}
+.model_block{
+    display: flex;
+}
+.model_block ul{
+    flex: 1 0 25%;
+}
+.model_block li{
+    list-style-type: none;
+}
+.category{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.subcategory_title{
+    text-align: center;
+}
+.inter_acss,.exter_acss{
+    margin: 50px auto
+}
