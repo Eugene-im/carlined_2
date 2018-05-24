@@ -113,14 +113,14 @@ $('document').ready(function() {
 		dots:true,
 		arrows:true
 	  });
-	  $('.slider').slick({
-		infinite: true,
-		autoscroll:true,
-		slidesToShow: 1,
-		slidesToScroll: 1,
-		dots:false,
-		arrows:false
-	  });
+	//   $('.slider').slick({
+	// 	infinite: true,
+	// 	autoscroll:true,
+	// 	slidesToShow: 1,
+	// 	slidesToScroll: 1,
+	// 	dots:false,
+	// 	arrows:false
+	//   });
 
 	//   $('[class^="#tabs-"]').click(function(){
 	//   $('[id^="tabs-"]').toggleClass('active');
