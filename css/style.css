@@ -11,7 +11,8 @@ body{
     padding-bottom:10px;
    
 }
-.row.inter{
+.row.exter,
+    .row.inter{
      display: flex;
     justify-content: stretch;
 }
@@ -31,13 +32,15 @@ body{
 .slick-prev:before, .slick-next:before {
     color: #F44336;
 }
-.shop__item_inter{
+.shop__item_inter,
+    .shop__item_exter{
     min-height: 100%;
     background: url(../img/slider__img.jpg) center center no-repeat;
     background-size:cover; 
     overflow: hidden;
 }
-.shop__item_inter h3{
+.shop__item_exter h3,
+    .shop__item_inter h3{
     margin-left: 10px;
     color:#fff
 }
@@ -52,6 +55,10 @@ body{
     display: none;
     flex-direction: row;
     flex-wrap: wrap;
+}
+#tabs-1 ul,
+    #tabs-2 ul{
+        flex: 0 1 16.6%;
 }
 #tabs-1 li, #tabs-2 li{
     list-style-type: none;
@@ -139,6 +146,9 @@ body{
     margin: auto;
 }
 
+.car_name{
+    font-size: 16px
+}
 
 @media screen and (max-width: 992px){
     .slider__item .breadcrumb-block i,

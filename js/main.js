@@ -122,11 +122,11 @@ $('document').ready(function() {
 		arrows:false
 	  });
 
-	  $('[class^="#tabs-"]').click(function(){
-	  $('[id^="tabs-"]').toggleClass('active');
-	  $('.tabs_caption li').toggleClass('active');
+	//   $('[class^="#tabs-"]').click(function(){
+	//   $('[id^="tabs-"]').toggleClass('active');
+	//   $('.tabs_caption li').toggleClass('active');
 
-	  });
+	//   });
 
 })
 
